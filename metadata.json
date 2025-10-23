@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of DocusClean1.2",
+  "description": "A powerful document scanning and cleaning application. Import documents from your camera or files, apply powerful cleaning filters, and extract text with built-in OCR. Organize and export your documents as high-quality PDFs or images, all within a sleek, desktop-like interface.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

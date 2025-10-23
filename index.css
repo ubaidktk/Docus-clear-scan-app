@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.range-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #4f46e5; /* indigo-600 */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -6px; /* You might need to adjust this value */
+}
+
+.range-thumb::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #4f46e5; /* indigo-600 */
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
